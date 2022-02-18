@@ -1,0 +1,6 @@
+para correr los programas de cada uno de los ejercicios, ejecutar el programa makefile 
+(este archivo compila todos los programas con extension .c)
+y compilar los programas con extension .java con la siguiente sintaxsis:
+
+compilar: javac nombrePrograma.java
+ejecutar: java nombrePrograma argumentos
