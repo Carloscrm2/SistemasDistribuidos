@@ -1,0 +1,10 @@
+/home/carlos/Documents/practica2/src/main/java/server/EchoMultiServerThread.java
+/home/carlos/Documents/practica2/src/main/java/server/EchoObject.java
+/home/carlos/Documents/practica2/src/main/java/rmi/EchoInt.java
+/home/carlos/Documents/practica2/src/main/java/server/EchoServer.java
+/home/carlos/Documents/practica2/src/main/java/rmi/EchoInterface.java
+/home/carlos/Documents/practica2/src/main/java/server/EchoMultiServer.java
+/home/carlos/Documents/practica2/src/main/java/server/EchoObjectSkeleton.java
+/home/carlos/Documents/practica2/src/main/java/client/Echo.java
+/home/carlos/Documents/practica2/src/main/java/client/EchoClient.java
+/home/carlos/Documents/practica2/src/main/java/client/EchoObjectStub.java
