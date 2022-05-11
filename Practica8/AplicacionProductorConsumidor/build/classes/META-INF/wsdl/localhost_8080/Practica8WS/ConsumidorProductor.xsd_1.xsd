@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://consumidorproductor.me.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://consumidorproductor.me.org/">
+
+<xs:element name="Comprar" type="tns:Comprar"/>
+
+<xs:element name="ComprarResponse" type="tns:ComprarResponse"/>
+
+<xs:element name="Pagar" type="tns:Pagar"/>
+
+<xs:element name="PagarResponse" type="tns:PagarResponse"/>
+
+<xs:complexType name="Pagar">
+<xs:sequence>
+<xs:element name="numero_tarjeta" type="xs:string" minOccurs="0"/>
+<xs:element name="monto" type="xs:int"/>
+<xs:element name="nombre" type="xs:string" minOccurs="0"/>
+<xs:element name="codigo_cvv" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="PagarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Comprar">
+<xs:sequence>
+<xs:element name="id_producto" type="xs:int"/>
+<xs:element name="precio" type="xs:float"/>
+<xs:element name="numero_productos" type="xs:int"/>
+<xs:element name="total" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ComprarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
